@@ -1,0 +1,185 @@
+/***** BASE STYLES *****/
+body {
+  font-family: 'Cormorant Garamond', serif;
+  font-family: 'Raleway', sans-serif;
+}
+
+#header, #main, #about, #skills, #work, #contact {
+  height: 600px;
+}
+
+/***** GRID *****/
+.full-width {
+  margin: 0 auto;
+  width: 1200px;
+}
+
+.half-width {
+  float: left;
+  width: 600px;
+}
+
+.third-width {
+  float: left;
+  width: 400px;
+}
+
+/***** HEADER *****/
+header {
+  background: url(../img/iceland-125.jpg);
+  background-size: cover;
+  height: 800px;
+}
+
+header h1 {
+  color: #363d23;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 150px;
+  font-weight: 300;
+  letter-spacing: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+header h3 {
+  color: #363d23;
+  font-family: 'Raleway', sans-serif;
+  font-size: 30px;
+  font-weight: 200px;
+  font-variant: small-caps;
+  letter-spacing: 5px;
+  text-align: center;
+}
+
+nav {
+  padding: 40px 10px;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  color: #363d23;
+  font-size: 18px;
+  font-family: 'Raleway', sans-serif;
+  padding-left: 40px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+/***** ABOUT *****/
+#about .half-width {
+  padding: 50px 0;
+}
+
+#about h3 {
+  color: #252525;
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+}
+
+#about p {
+  color: #252525;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+#about p span {
+  font-weight: bold;
+  font-style: italic;
+}
+
+#about img {
+  padding-left: 150px;
+}
+
+/***** SKILLS *****/
+#skills .third-width {
+  padding: 50px 0;
+  height: 400px;
+  text-align: center;
+}
+
+#skills h4 {
+  color: #252525;
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  margin: 0 auto;
+}
+
+#skills h3 {
+  color: #252525;
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+}
+
+#skills p {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 16px;
+  padding: 10px;
+  width: 350px;
+}
+
+
+/***** WORK *****/
+#work {
+  background: #9d9d9d;
+  height: 400px;
+  margin: 0 auto;
+}
+
+#work .third-width {
+  height: 400px;
+  padding: 50px 0;
+  text-align: center;
+  margin: 0 auto;
+}
+
+#work h4 {
+  color: #252525;
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  padding-top: 30px
+}
+
+#work h3 {
+  color: #252525;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 20px;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 10px;
+}
+
+/***** CONTACT *****/
+#contact .full-width {
+}
+
+#contact h4 {
+  color: #252525;
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+}
+
+#contact p {
+  color: #252525;
+  font-familiy: 'Cormorant Garamond', serif;
+  font-size: 16px;
+}
+
+#contact ul {
+  list-style: none;
+  align-items: left;
+}
+
+#contact ul li {
+  display: inline-block;
+}
+
+#contact ul img {
+  font-size: 32px;
+  padding-left: 10px;
+}
